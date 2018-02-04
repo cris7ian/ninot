@@ -3,9 +3,8 @@
   width: 100%;
   background-color: #458985;
   padding: 3em; }
-
-.footer h4 {
-  font-family: 'Gravitas One', serif; }
+  .footer h4 {
+    font-family: 'Gravitas One', serif; }
 
 body {
   background: #222;
@@ -43,19 +42,17 @@ header {
   background-color: #FD7777;
   padding: 18em 0 16em;
   z-index: 2; }
-
-header h1 {
-  font-family: 'Gravitas One', cursive;
-  font-size: 10em;
-  text-align: center;
-  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15); }
-
-header h3 {
-  font-family: 'EB Garamont', serif;
-  font-size: 3em;
-  text-align: center;
-  text-shadow: 2px 1px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
-  font-style: italic; }
+  header h1 {
+    font-family: 'Gravitas One', cursive;
+    font-size: 10em;
+    text-align: center;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15); }
+  header h3 {
+    font-family: 'EB Garamont', serif;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 2px 1px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
+    font-style: italic; }
 
 h1 {
   font-family: 'Gravitas One', cursive;
@@ -82,13 +79,12 @@ h1 {
 #about {
   background: #A55C55;
   color: #D7D6A5; }
-
-#about h3 {
-  font-family: 'EB Garamont', serif;
-  font-size: 4em;
-  text-align: center;
-  font-style: italic;
-  text-shadow: 2px 1px 0px #DBA67B, 9px 8px 0px rgba(0, 0, 0, 0.15); }
+  #about h3 {
+    font-family: 'EB Garamont', serif;
+    font-size: 4em;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 2px 1px 0px #DBA67B, 9px 8px 0px rgba(0, 0, 0, 0.15); }
 
 #the-space h3 {
   font-family: 'EB Garamont', serif;
@@ -97,15 +93,28 @@ h1 {
   font-style: italic; }
 
 #the-location {
+  background-image: url("./img/local_5.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #D7D6A5; }
+  #the-location h3 {
+    font-family: 'EB Garamont', serif;
+    font-size: 4em;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 2px 1px 0px #DBA67B, 9px 8px 0px rgba(0, 0, 0, 0.15); }
+
+#opening-hours {
   background: #074358;
   color: #D7D6A5; }
-
-#the-location h3 {
-  font-family: 'EB Garamont', serif;
-  font-size: 4em;
-  text-align: center;
-  font-style: italic;
-  text-shadow: 2px 1px 0px #DBA67B, 9px 8px 0px rgba(0, 0, 0, 0.15); }
+  #opening-hours h3 {
+    font-family: 'EB Garamont', serif;
+    font-size: 4em;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 2px 1px 0px #DBA67B, 9px 8px 0px rgba(0, 0, 0, 0.15); }
 
 #book-now h3 {
   font-family: 'EB Garamont', serif;
@@ -122,14 +131,13 @@ h1 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat; }
+  #events h1 {
+    font-family: 'Gravitas One', cursive;
+    font-size: 10em;
+    text-align: center;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15); }
 
-#events h1 {
-  font-family: 'Gravitas One', cursive;
-  font-size: 10em;
-  text-align: center;
-  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15); }
-
-#events .description {
+.description {
   color: #A55C55;
   background: rgba(255, 255, 255, 0.9);
   margin: 1em;

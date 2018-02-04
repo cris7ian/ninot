@@ -120,6 +120,24 @@ h1 {
 }
 
 #the-location {
+  background-image: url('./img/local_5.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #D7D6A5;
+
+  h3 {
+    font-family: 'EB Garamont', serif;
+    font-size: 4em;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 2px 1px 0px #DBA67B, 9px 8px 0px rgba(0,0,0,0.15);
+
+  }
+}
+
+#opening-hours {
   background: #074358;
   color: #D7D6A5;
 
@@ -160,13 +178,13 @@ h1 {
     text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
   }
 
-  .description {
-    color: #A55C55;
-    background: rgba(255,255,255,.90);
-    margin: 1em;
-    padding: 3em;
-    box-shadow: 4px 3px 0px #A55C55, 9px 8px 0px rgba(0,0,0,0.15);
+}
 
-  }
+.description {
+  color: #A55C55;
+  background: rgba(255,255,255,.90);
+  margin: 1em;
+  padding: 3em;
+  box-shadow: 4px 3px 0px #A55C55, 9px 8px 0px rgba(0,0,0,0.15);
 
 }
