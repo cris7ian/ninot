@@ -3,23 +3,24 @@ import React from 'react'
 const Footer = () => (
   <footer className="footer">
     <div className="container">
-      <div class="row">
-        <div class="col-md-4">
-          Marina Village <br/>
-          Carrer de la Marina 19-21, <br/>
-          Local D1, Barcelona 08005 <br/>
-          Metro Ciutadella Vila Olímpica (L4)
+      <div className="row">
+        <div className="col-md-4">
+          <h4>Location</h4>
+          Mercat del Ninot,<br/>
+          Carrer de Casanova, 133,<br/>
+          08036 Barcelona
         </div>
-        <div class="col-md-4">
-          Reservas: <br/>
-          +34 932 694 942 <br/>
-          restaurant@touchebcn.com <br/>
-          www.touchebcn.com
+        <div className="col-md-4">
+          <h4>Bookings</h4>
+          +34 932 77 68 84 <br/>
+          restaurant@ninot.com <br/>
+          www.ninot.com
         </div>
-        <div class="col-md-4">
-          Cocina: <br/>
+        <div className="col-md-4">
+          <h4>Timetables</h4>
+          Kitchen: <br/>
           Lunes a Domingo 12:00-23:30 <br/>
-          Terraza: <br/>
+          Terrace: <br/>
           Lunes a Domingo 11:00 - 03:30
         </div>
       </div>
