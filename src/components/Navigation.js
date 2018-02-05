@@ -1,4 +1,7 @@
+/* global $ */
 import React from 'react'
+
+const scrollTo = (id) => () => $.scrollTo(id, 400, {offset: -56})
 
 const Navigation = () => (
   <nav id="nav" className="navbar navbar-expand-md fixed-top navbar-dark fixed-top">
@@ -9,19 +12,16 @@ const Navigation = () => (
     <div className="collapse navbar-collapse" id="navbarCollapse">
       <ul className="navbar-nav navbar-right">
         <li className="nav-item active">
-          <a className="nav-link" href="#">The Space</a>
+          <a className="nav-link" onClick={scrollTo('#the-space')}>The Space</a>
         </li>
         <li className="nav-item active">
-          <a className="nav-link" href="#">Location</a>
+          <a className="nav-link" onClick={scrollTo('#the-location')}>Location</a>
         </li>
         <li className="nav-item active">
-          <a className="nav-link" href="#">Events</a>
+          <a className="nav-link" onClick={scrollTo('#events')}>Events</a>
         </li>
         <li className="nav-item active">
-          <a className="nav-link" href="#">Book Now</a>
-        </li>
-        <li className="nav-item active">
-          <a className="nav-link" href="#">Contact us</a>
+          <a className="nav-link" onClick={scrollTo('#book-now')}>Book Now</a>
         </li>
       </ul>
     </div>
