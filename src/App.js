@@ -6,7 +6,7 @@ import Location from './components/Location'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Space from './components/Space'
-import { FoodGalleryGrid, LocalGalleryGrid } from './GalleryGrid'
+import { FoodGalleryGrid } from './GalleryGrid'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'react-image-gallery/styles/css/image-gallery.css'
@@ -56,12 +56,7 @@ class App extends Component {
             </div>
           </div>
         </div>
-
         <Space/>
-
-        <div className="blocks">
-          <LocalGalleryGrid />
-        </div>
         <Location/>
         <Hours/>
         <Events/>

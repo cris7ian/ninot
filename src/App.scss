@@ -36,8 +36,14 @@ body {
   padding: 0 2em;
 }
 
+@media (min-width: 768px) {
+  #nav .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+  }
+}
+
 #nav {
-  font-family: 'Gravitas One', serif;
+  font-family: 'Roboto Mono', serif;
   background-color: rgba(69, 137, 133, 0.90);
   position: fixed;
   width: 100%;
@@ -88,7 +94,6 @@ h1 {
 }
 
 #localGallery {
-  width: 80%;
   display: block;
   overflow: auto;
   margin: auto;

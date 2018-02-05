@@ -10,7 +10,7 @@ const IMAGES_FOOD = Array(9).fill().map((_, i) => ({
 const IMAGES_LOCAL = [1, 2, 3, 6, 7, 8].map(i => ({
   src: `${process.env.PUBLIC_URL}/img/local_${i}.jpg`,
   thumbnail: `${process.env.PUBLIC_URL}/img/local_${i}.jpg`,
-  thumbnailWidth: 100
+  thumbnailWidth: 60
 }))
 
 const FoodGalleryGrid = () => (
@@ -29,7 +29,7 @@ const LocalGalleryGrid = () => (
     <Gallery
       id="localGallery"
       images={IMAGES_LOCAL}
-      rowHeight={200}
+      rowHeight={180}
       enableImageSelection={false}
     />
   </div>
