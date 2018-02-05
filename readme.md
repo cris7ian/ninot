@@ -1,15 +1,3 @@
-# Hosting Ninot Cuina
-
-https://www.powweb.com/
-
-username: touchebcncom
-
-password: Touche-barcelona2017
-
-Abajo el domain central esta Ninot
-
-----------------------------------
-
 # Programa de reservas
 
  Iframes de los motores de reserva para El Ninot Cuina:
