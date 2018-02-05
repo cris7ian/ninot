@@ -38,7 +38,7 @@ body {
   top: 0;
   z-index: 3; }
 
-#nav ul {
+#nav ul, #nav .navbar-brand {
   cursor: pointer; }
 
 header {

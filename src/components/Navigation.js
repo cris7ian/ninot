@@ -5,7 +5,7 @@ const scrollTo = (id) => () => $.scrollTo(id, 400, {offset: -56})
 
 const Navigation = () => (
   <nav id="nav" className="navbar navbar-expand-md fixed-top navbar-dark fixed-top">
-    <a className="navbar-brand" href="#">Ninot</a>
+    <a className="navbar-brand" onClick={scrollTo('.App')}>Ninot</a>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"/>
     </button>
