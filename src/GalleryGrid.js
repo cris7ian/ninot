@@ -32,9 +32,9 @@ const FoodGallery = () => (
 )
 
 const FoodGalleryGrid = () => (
-  <div id="foodGalleryGrid">
+  <div>
     <Gallery
-      id="foodGallery"
+      id="foodGalleryGrid"
       images={IMAGES_FOOD}
       rowHeight={180}
       enableImageSelection={false}
