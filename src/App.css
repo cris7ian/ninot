@@ -1,10 +1,21 @@
 .footer {
   color: white;
   width: 100%;
-  background-color: #458985;
+  background-color: #265f3f;
   padding: 3em; }
-  .footer h4 {
-    font-family: 'Gravitas One', serif; }
+
+.footer a {
+  color: white;
+  text-decoration: underline; }
+
+.footer a:hover {
+  color: white; }
+
+.footer h4 {
+  font-family: 'Gravitas One', serif; }
+
+.footer i {
+  font-size: 2em; }
 
 body {
   background: #222;
@@ -16,7 +27,7 @@ body {
   font-family: 'Roboto Mono', monospace; }
 
 .main-banner {
-  color: #458985;
+  color: #265f3f;
   min-height: 100%;
   background-size: cover;
   background-image: url("./img/food_2.jpg");
@@ -34,31 +45,34 @@ body {
 
 #nav {
   font-family: 'Roboto Mono', serif;
-  background-color: rgba(69, 137, 133, 0.9);
+  background-color: rgba(38, 95, 63, 0.9);
   position: fixed;
   width: 100%;
   margin: 0 auto;
   top: 0;
   z-index: 3; }
-  #nav ul, #nav .navbar-brand {
-    cursor: pointer; }
+
+#nav ul, #nav .navbar-brand {
+  cursor: pointer; }
 
 header {
   position: relative;
   background-color: #FD7777;
   padding: 18em 0 16em;
   z-index: 2; }
-  header h1 {
-    font-family: 'Gravitas One', cursive;
-    font-size: 10em;
-    text-align: center;
-    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15); }
-  header h3 {
-    font-family: 'EB Garamont', serif;
-    font-size: 3em;
-    text-align: center;
-    text-shadow: 2px 1px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
-    font-style: italic; }
+
+header h1 {
+  font-family: 'Gravitas One', cursive;
+  font-size: 10em;
+  text-align: center;
+  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15); }
+
+header h3 {
+  font-family: 'EB Garamont', serif;
+  font-size: 3em;
+  text-align: center;
+  text-shadow: 2px 1px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
+  font-style: italic; }
 
 h1 {
   font-family: 'Gravitas One', cursive;
@@ -66,11 +80,14 @@ h1 {
   text-align: center;
   text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15); }
 
-#foodGallery {
+#foodGalleryGrid {
   width: 80%;
   display: block;
   overflow: auto;
   margin: auto; }
+
+#foodGallery {
+  display: none; }
 
 #localGallery {
   display: block;
@@ -83,13 +100,14 @@ h1 {
 
 #about {
   background: #A55C55;
-  color: #D7D6A5; }
-  #about h3 {
-    font-family: 'EB Garamont', serif;
-    font-size: 4em;
-    text-align: center;
-    font-style: italic;
-    text-shadow: 2px 1px 0px #DBA67B, 9px 8px 0px rgba(0, 0, 0, 0.15); }
+  color: #fec33e; }
+
+#about h3 {
+  font-family: 'EB Garamont', serif;
+  font-size: 4em;
+  text-align: center;
+  font-style: italic;
+  text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.15); }
 
 #the-space h3 {
   font-family: 'EB Garamont', serif;
@@ -104,22 +122,24 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   color: #D7D6A5; }
-  #the-location h3 {
-    font-family: 'EB Garamont', serif;
-    font-size: 4em;
-    text-align: center;
-    font-style: italic;
-    text-shadow: 2px 1px 0px #DBA67B, 9px 8px 0px rgba(0, 0, 0, 0.15); }
+
+#the-location h3 {
+  font-family: 'EB Garamont', serif;
+  font-size: 4em;
+  text-align: center;
+  font-style: italic;
+  text-shadow: 2px 1px 0px #DBA67B, 9px 8px 0px rgba(0, 0, 0, 0.15); }
 
 #opening-hours {
   background: #074358;
   color: #D7D6A5; }
-  #opening-hours h3 {
-    font-family: 'EB Garamont', serif;
-    font-size: 4em;
-    text-align: center;
-    font-style: italic;
-    text-shadow: 2px 1px 0px #DBA67B, 9px 8px 0px rgba(0, 0, 0, 0.15); }
+
+#opening-hours h3 {
+  font-family: 'EB Garamont', serif;
+  font-size: 4em;
+  text-align: center;
+  font-style: italic;
+  text-shadow: 2px 1px 0px #DBA67B, 9px 8px 0px rgba(0, 0, 0, 0.15); }
 
 #book-now h3 {
   font-family: 'EB Garamont', serif;
@@ -129,18 +149,19 @@ h1 {
   text-shadow: 2px 1px 0px #DBA67B; }
 
 #events {
-  color: #458985;
+  color: #265f3f;
   min-height: 100%;
   background-size: cover;
   background-image: url("./img/local_13.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat; }
-  #events h1 {
-    font-family: 'Gravitas One', cursive;
-    font-size: 10em;
-    text-align: center;
-    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15); }
+
+#events h1 {
+  font-family: 'Gravitas One', cursive;
+  font-size: 10em;
+  text-align: center;
+  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15); }
 
 .description {
   color: #A55C55;
@@ -148,3 +169,20 @@ h1 {
   margin: 1em;
   padding: 3em;
   box-shadow: 4px 3px 0px #A55C55, 9px 8px 0px rgba(0, 0, 0, 0.15); }
+
+.row {
+  justify-content: center; }
+
+@media (max-width: 1200px) {
+  header h1 {
+    font-size: 3em; }
+  header h3 {
+    font-size: 2em; }
+  #events h1 {
+    font-size: 3em; }
+  .footer .container .row div {
+    padding-bottom: 2em; }
+  #foodGalleryGrid {
+    display: none; }
+  #foodGallery {
+    display: block; } }

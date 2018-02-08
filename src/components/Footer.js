@@ -8,20 +8,21 @@ const Footer = () => (
           <h4>Location</h4>
           Mercat del Ninot,<br/>
           Carrer de Casanova, 133,<br/>
-          08036 Barcelona
+          08036 Barcelona <br/>
+          <a href="https://www.instagram.com/elninot_cuina/">
+            <i className="fab fa-instagram"/>
+          </a>
+
         </div>
         <div className="col-md-4">
           <h4>Bookings</h4>
           +34 932 77 68 84 <br/>
-          restaurant@ninot.com <br/>
-          www.ninot.com
+          <a href="mailto:info@ninotcuina.com">info@ninotcuina.com</a><br/>
         </div>
         <div className="col-md-4">
           <h4>Timetables</h4>
-          Kitchen: <br/>
-          Lunes a Domingo 12:00-23:30 <br/>
-          Terrace: <br/>
-          Lunes a Domingo 11:00 - 03:30
+          Sunday and Monday: 9:30-16:00, kitchen 12 to 16<br/>
+          Tuesday to Saturday: 9:30-00:00, kitchen all day<br/>
         </div>
       </div>
     </div>

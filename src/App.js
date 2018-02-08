@@ -6,7 +6,7 @@ import Location from './components/Location'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Space from './components/Space'
-import { FoodGalleryGrid } from './GalleryGrid'
+import { FoodGalleryGrid, FoodGallery } from './GalleryGrid'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'react-image-gallery/styles/css/image-gallery.css'
@@ -52,6 +52,7 @@ class App extends Component {
             <div className="row justify-content-md-center">
               <div className="col col-xl">
                 <FoodGalleryGrid />
+                <FoodGallery/>
               </div>
             </div>
           </div>
