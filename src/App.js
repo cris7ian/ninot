@@ -14,6 +14,10 @@ require('bootstrap/dist/js/bootstrap')
 
 class App extends Component {
   render() {
+    if (true) {
+      return <div></div>
+    }
+
     return (
       <div className="App">
         <Navigation />

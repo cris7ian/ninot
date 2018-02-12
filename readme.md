@@ -33,9 +33,9 @@ frameborder="0" height="550" width="100%"></iframe>
 
 - [x] Navigation
 - [x] Desktop
-- [ ] Mobile Ready
-- [ ] Change gallery
+- [x] Mobile Ready
+- [x] Change gallery
 - [ ] Localization
 - [ ] Favicon
 - [ ] Contact Form to email
-- [ ] Real info in footer
+- [x] Real info in footer
