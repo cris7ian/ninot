@@ -6,6 +6,7 @@ import Location from './components/Location'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Space from './components/Space'
+import Map from './components/Map'
 import { FoodGalleryGrid, FoodGallery } from './GalleryGrid'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.css'
@@ -14,10 +15,6 @@ require('bootstrap/dist/js/bootstrap')
 
 class App extends Component {
   render() {
-    if (true) {
-      return <div></div>
-    }
-
     return (
       <div className="App">
         <Navigation />
@@ -66,6 +63,7 @@ class App extends Component {
         <Hours/>
         <Events/>
         <Contact/>
+        <Map/>
         <Footer />
       </div>
     )

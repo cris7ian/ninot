@@ -12,6 +12,10 @@ const Footer = () => (
           <a href="https://www.instagram.com/elninot_cuina/">
             <i className="fab fa-instagram"/>
           </a>
+          {' '}
+          <a href="https://www.facebook.com/elninotcuinabarcelona/">
+            <i className="fab fa-facebook"/>
+          </a>
 
         </div>
         <div className="col-md-4">
@@ -21,8 +25,8 @@ const Footer = () => (
         </div>
         <div className="col-md-4">
           <h4>Timetables</h4>
-          Sunday and Monday: 9:30-16:00, kitchen 12 to 16<br/>
-          Tuesday to Saturday: 9:30-00:00, kitchen all day<br/>
+          Sunday and Monday: 9:30-16:00,<br/>
+          Tuesday to Saturday: 9:30-00:00,<br/>
         </div>
       </div>
     </div>

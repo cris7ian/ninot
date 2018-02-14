@@ -124,10 +124,9 @@ h1 {
 }
 
 #about {
-  background: #A55C55;
-  color: #fec33e;
 
   h3 {
+    color: $green;
     font-family: 'EB Garamont', serif;
     font-size: 4em;
     text-align: center;
@@ -139,6 +138,7 @@ h1 {
 
 #the-space {
   h3 {
+    color: $green;
     font-family: 'EB Garamont', serif;
     font-size: 4em;
     text-align: center;
@@ -255,4 +255,16 @@ h1 {
   #foodGallery {
     display: block;
   }
+}
+
+
+.mapouter {
+  overflow:hidden;
+  height:500px;
+}
+
+.gmap_canvas {
+  background:none!important;
+  height:500px;
+  width: 100%;
 }
