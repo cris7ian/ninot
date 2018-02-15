@@ -32,6 +32,7 @@ const Footer = () => (
           </h4>
           <FormattedMessage id="footer.t1"/><br/>
           <FormattedMessage id="footer.t2"/><br/>
+          <FormattedMessage id="footer.t3"/><br/>
         </div>
       </div>
     </div>

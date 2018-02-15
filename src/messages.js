@@ -30,7 +30,8 @@ export default {
       booking: "Booking",
       timetables: "Timetables",
       t1: "Sunday and Monday: 9:30-16:00,",
-      t2: "Tuesday to Saturday: 9:30-00:00,"
+      t2: "Tuesday to Saturday: 9:30-00:00,",
+      t3: "Kitchen open all day"
     },
     book: {
       title1: "Book Now",
@@ -77,7 +78,9 @@ export default {
       booking: "Reservas",
       timetables: "Horarios",
       t1: "Domingo a Lunes: 9:30 - 16:00",
-      t2: "Martes a Sábado: 9:30 - 00:00"
+      t2: "Martes a Sábado: 9:30 - 00:00",
+      t3: "Cocina abierta todo el día"
+
     },
     book: {
       title1: "Reserva",
@@ -124,7 +127,8 @@ export default {
       booking: "Reserves",
       timetables: "Horari",
       t1: "Diumenge a Dilluns: 9:30-16:00",
-      t2: "Dimarts a Dissabte: 9:30 - 00:00"
+      t2: "Dimarts a Dissabte: 9:30 - 00:00",
+      t3: "Cuina oberta tot el dia"
     },
     book: {
       title1: "Reserva",
