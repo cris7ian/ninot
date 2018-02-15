@@ -1,6 +1,23 @@
 $green: #265f3f;
 $yellow: #fec33e;
 
+@font-face {
+  font-family: Akkurat;
+  src: url("./fonts/Akkurat-Mono.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: Eames;
+  font-weight: bold;
+  src: url("./fonts/EamesCenturyModern-Stencil.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Eames-b;
+  font-weight: bold;
+  src: url("./fonts/EamesCenturyModern-Black.otf") format("opentype");
+}
+
 .footer {
   color: white;
   width: 100%;
@@ -14,7 +31,7 @@ $yellow: #fec33e;
     color: white;
   }
   h4 {
-    font-family: 'Gravitas One', serif;
+    font-family: 'Eames', 'Gravitas One', serif;
   }
 
   i {
@@ -38,7 +55,7 @@ body {
   color: $green;
   min-height: 100%;
   background-size: cover;
-  background-image: url('./img/food_2.jpg');
+  background-image: url('./img/local_banner.JPG');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,23 +93,21 @@ header {
   padding: 18em 0 16em;
   z-index: 2;
   h1 {
-    font-family: 'Gravitas One', cursive;;
+    font-family: 'Eames-b', 'Gravitas One', cursive;;
     font-size: 10em;
     text-align: center;
     text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
   }
 
   h3 {
-    font-family: 'EB Garamont', serif;
     font-size: 3em;
     text-align: center;
     text-shadow: 2px 1px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
-    font-style: italic;
   }
 }
 
 h1 {
-  font-family: 'Gravitas One', cursive;;
+  font-family: 'Eames', 'Gravitas One', cursive;;
   font-size: 10em;
   text-align: center;
   text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
@@ -107,9 +122,6 @@ h1 {
   margin: auto;
 }
 
-#foodGallery {
-  display: none;
-}
 
 #localGallery {
   display: block;
@@ -127,19 +139,20 @@ h1 {
 
   h3 {
     color: $green;
-    font-family: 'EB Garamont', serif;
+    font-family: 'Akkurat', 'EB Garamont', serif;
     font-size: 4em;
     text-align: center;
     font-style: italic;
-    text-shadow:2px 3px 0px rgba(0,0,0,0.15);
+    text-shadow: 2px 1px 0px #DBA67B, 2px 2px 0px rgba(0,0,0,0.15);
 
   }
 }
 
 #the-space {
   h3 {
+    text-shadow: 2px 1px 0px #DBA67B, 2px 2px 0px rgba(0,0,0,0.15);
     color: $green;
-    font-family: 'EB Garamont', serif;
+    font-family: 'Akkurat', 'EB Garamont', serif;
     font-size: 4em;
     text-align: center;
     font-style: italic;
@@ -155,7 +168,7 @@ h1 {
   color: #D7D6A5;
 
   h3 {
-    font-family: 'EB Garamont', serif;
+    font-family: 'Akkurat', 'EB Garamont', serif;
     font-size: 4em;
     text-align: center;
     font-style: italic;
@@ -165,22 +178,20 @@ h1 {
 }
 
 #opening-hours {
-  background: #074358;
-  color: #D7D6A5;
 
   h3 {
-    font-family: 'EB Garamont', serif;
+    font-family: 'Akkurat', 'EB Garamont', serif;
     font-size: 4em;
     text-align: center;
     font-style: italic;
-    text-shadow: 2px 1px 0px #DBA67B, 9px 8px 0px rgba(0,0,0,0.15);
+    text-shadow: 2px 1px 0px #DBA67B, 2px 2px 0px rgba(0,0,0,0.15);
 
   }
 }
 
 #book-now {
   h3 {
-    font-family: 'EB Garamont', serif;
+    font-family: 'Akkurat', 'EB Garamont', serif;
     font-size: 4em;
     text-align: center;
     font-style: italic;
@@ -199,7 +210,7 @@ h1 {
   background-repeat: no-repeat;
 
   h1 {
-    font-family: 'Gravitas One', cursive;;
+    font-family: 'Eames-b', 'Gravitas One', cursive;;
     font-size: 10em;
     text-align: center;
     text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
@@ -220,11 +231,32 @@ h1 {
   justify-content: center;
 }
 
+.languages {
+  float: right;
+  cursor: pointer;
+  color: white;
+  
+  span:hover {
+    text-decoration: underline;
+  }
+}
+
+@media (max-width: 600px) {
+  #localGallery {
+
+    img {
+      width: 100%;
+      height: auto !important;
+    }
+
+  }
+}
+
 @media (max-width: 1200px) {
   header {
     h1 {
 
-    font-size: 3em;
+      font-size: 3em;
     }
 
     h3 {
@@ -248,15 +280,10 @@ h1 {
     padding-bottom: 2em;
   }
 
-  #foodGalleryGrid {
-    display: none;
-  }
-
   #foodGallery {
     display: block;
   }
 }
-
 
 .mapouter {
   overflow:hidden;

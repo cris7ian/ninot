@@ -1,11 +1,12 @@
 import React from 'react'
+import {FormattedMessage} from "react-intl"
 
 const Footer = () => (
   <footer className="footer">
     <div className="container">
       <div className="row">
         <div className="col-md-4">
-          <h4>Location</h4>
+          <h4><FormattedMessage id="footer.location"/></h4>
           Mercat del Ninot,<br/>
           Carrer de Casanova, 133,<br/>
           08036 Barcelona <br/>
@@ -19,14 +20,18 @@ const Footer = () => (
 
         </div>
         <div className="col-md-4">
-          <h4>Bookings</h4>
+          <h4>
+            <FormattedMessage id="footer.booking"/>
+          </h4>
           +34 932 77 68 84 <br/>
           <a href="mailto:info@ninotcuina.com">info@ninotcuina.com</a><br/>
         </div>
         <div className="col-md-4">
-          <h4>Timetables</h4>
-          Sunday and Monday: 9:30-16:00,<br/>
-          Tuesday to Saturday: 9:30-00:00,<br/>
+          <h4>
+            <FormattedMessage id="footer.timetables"/>
+          </h4>
+          <FormattedMessage id="footer.t1"/><br/>
+          <FormattedMessage id="footer.t2"/><br/>
         </div>
       </div>
     </div>

@@ -1,15 +1,17 @@
 import React from 'react'
+import $ from 'jquery'
+import {FormattedMessage, injectIntl } from "react-intl"
 
-const Contact = () => (
+const Contact = ({lang, intl: { formatMessage }}) => (
   <div id="book-now" className="blocks">
     <div className="container">
       <div className="row justify-content-md-center">
         <div className="col-xl">
 
-          <h3>Book Now</h3>
+          <h3><FormattedMessage id="book.title1"/></h3>
           <iframe
             title="Reservas"
-            src="https://www.covermanager.com/reservation/module_restaurant/ninot-cuina/english"
+            src={`https://www.covermanager.com/reservation/module_restaurant/ninot-cuina/${lang}`}
             frameBorder="0"
             height="550"
             width="100%"
@@ -17,7 +19,7 @@ const Contact = () => (
         </div>
 
         <div className="col-xl">
-          <h3>Contact Us</h3>
+          <h3><FormattedMessage id="book.title2"/></h3>
           <form>
             <br style={{ clear: 'both' }} />
             <div className="form-group">
@@ -26,7 +28,7 @@ const Contact = () => (
                 className="form-control"
                 id="name"
                 name="name"
-                placeholder="Name"
+                placeholder={formatMessage({id: 'book.name'})}
                 required
               />
             </div>
@@ -45,7 +47,7 @@ const Contact = () => (
                       className="form-control"
                       type="textarea"
                       id="message"
-                      placeholder="Message"
+                      placeholder={formatMessage({id: 'book.message'})}
                       maxLength="140"
                       rows="7"
                     />
@@ -53,11 +55,27 @@ const Contact = () => (
             <button
               type="button"
               id="submit"
+              onClick={() => {
+                  $('#sent').hide()
+                  window.fetch('https://ninot-mailer.herokuapp.com/', {
+                    method: 'post',
+                    body: JSON.stringify({
+                      name: $('#name').val(),
+                      email: $('#email').val(),
+                      body: $('#message').val()
+                    })
+                  })
+                  $('#name, #email, #message').val('')
+                  $('#sent').show()
+                }
+              }
               name="submit"
               className="btn btn-light pull-right"
             >
-              Submit Form
+              <FormattedMessage id="book.submit"/>
             </button>
+            {' '}
+            <i id="sent" className="fas fa-check" style={{'display': 'none'}}/>
           </form>
         </div>
       </div>
@@ -65,4 +83,4 @@ const Contact = () => (
   </div>
 )
 
-export default Contact
+export default injectIntl(Contact)

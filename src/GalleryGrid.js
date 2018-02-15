@@ -47,7 +47,7 @@ const LocalGalleryGrid = () => (
     <Gallery
       id="localGallery"
       images={IMAGES_LOCAL}
-      rowHeight={180}
+      rowHeight={190}
       enableImageSelection={false}
     />
   </div>

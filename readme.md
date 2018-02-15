@@ -35,7 +35,8 @@ frameborder="0" height="550" width="100%"></iframe>
 - [x] Desktop
 - [x] Mobile Ready
 - [x] Change gallery
-- [ ] Localization
-- [ ] Favicon
-- [ ] Contact Form to email
 - [x] Real info in footer
+- [x] Favicon
+- [x] Contact Form to email
+- [ ] New images
+- [x] Localization

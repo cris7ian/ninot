@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import cookies from 'js-cookie'
 import Navigation from './components/Navigation'
 import Hours from './components/Hours'
 import Events from './components/Events'
@@ -7,65 +8,95 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Space from './components/Space'
 import Map from './components/Map'
-import { FoodGalleryGrid, FoodGallery } from './GalleryGrid'
+import { FoodGallery } from './GalleryGrid'
+import {addLocaleData, FormattedMessage, IntlProvider} from 'react-intl'
+import { flattenMessages } from './utils'
+import en from 'react-intl/locale-data/en'
+import es from 'react-intl/locale-data/es'
+import ca from 'react-intl/locale-data/ca'
+import messages from './messages';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'react-image-gallery/styles/css/image-gallery.css'
 require('bootstrap/dist/js/bootstrap')
 
+addLocaleData([...en, ...es, ...ca]);
+
+let locale = cookies.get('lang')
+  || (navigator.languages && navigator.languages[0])
+  || navigator.language
+  || navigator.userLanguage
+  || 'en-US';
+
+cookies.set('lang', locale)
+
+const formLanguages = {
+  'ca': 'catalan',
+  'en-US': 'english',
+  'es': 'spanish'
+}
+
 class App extends Component {
+
+  constructor() {
+    super()
+    this.onChangeLanguage = this.onChangeLanguage.bind(this)
+    this.state = {
+      locale
+    }
+  }
+
+  onChangeLanguage(lang) {
+    this.setState({ locale: lang });
+    cookies.set('lang', lang)
+  }
+
   render() {
+    const {locale} = this.state
     return (
-      <div className="App">
-        <Navigation />
-        <header id="hero" className="main-banner">
-          <div className="container main">
-            <h1>Welcome</h1>
-            <h3>to El Ninot Restaurant</h3>
-          </div>
-        </header>
+      <IntlProvider locale={locale} messages={flattenMessages(messages[locale] || messages['en-US'])}>
+        <div className="App">
+          <Navigation onChangeLanguage={this.onChangeLanguage} />
+          <header id="hero" className="main-banner">
+            <div className="container main">
+              <h1>El Ninot</h1>
+            </div>
+          </header>
 
-        <div id="about" className="blocks">
-          <div className="container">
-            <div className="row justify-content-md-center">
-              <div className="col col-lg-8">
-                <h3>El Ninot</h3>
-                <p>
-                  Not long ago, El Ninot was acquired by the team behind an ever-growing gastronomical powerhouse, which includes
-                  some of Barcelona’s finest establishments, such as Touché and Ice Bar, which can both be found near Barcelona’s Port Olimpic.
-                  We are deeply committed to excellent service and apply innovative design to the food in order to provide reasonably priced,
-                  high-quality products and elevate your dining experience.
-                </p>
-                <p>
-                  We fell in love with this place, the moment we stepped foot here. We see El Ninot as more than a restaurant.
-                  It is a project that aspires to breath new life into a wonderful, unique space with infinite potential. We aim to
-                  provide a tasty menu, to be enjoyed in a secluded oasis right next to a lively market, and we have worked hard to
-                  provide you with a friendly, experienced team of talented chefs, bartenders and servers. We aspire to become a
-                  place that is frequented and loved by tourists and locals alike and wish to prepare and serve food and wine of the finest quality.
-                </p>
+          <div id="about" className="blocks">
+            <div className="container">
+              <div className="row justify-content-md-center">
+                <div className="col col-lg-8">
+                  <h3>El Ninot</h3>
+                  <p>
+                    <FormattedMessage id="about.p1"/>
+                  </p>
+                  <p>
+                    <FormattedMessage id="about.p1"/>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div className="blocks">
-          <div className="container">
-            <div className="row justify-content-md-center">
-              <div className="col col-xl">
-                <FoodGalleryGrid />
-                <FoodGallery/>
+          <div className="blocks">
+            <div className="container">
+              <div className="row justify-content-md-center">
+                <div className="col col-xl">
+                  <FoodGallery/>
+                </div>
               </div>
             </div>
           </div>
+          <Space/>
+          <Location/>
+          <Hours/>
+          <Events/>
+          <Contact lang={formLanguages[locale]}/>
+          <Map/>
+          <Footer />
         </div>
-        <Space/>
-        <Location/>
-        <Hours/>
-        <Events/>
-        <Contact/>
-        <Map/>
-        <Footer />
-      </div>
+      </IntlProvider>
     )
   }
 }
