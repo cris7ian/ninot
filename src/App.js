@@ -72,7 +72,7 @@ class App extends Component {
                     <FormattedMessage id="about.p1"/>
                   </p>
                   <p>
-                    <FormattedMessage id="about.p1"/>
+                    <FormattedMessage id="about.p2"/>
                   </p>
                 </div>
               </div>
