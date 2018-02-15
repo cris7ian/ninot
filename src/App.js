@@ -92,7 +92,7 @@ class App extends Component {
           <Location/>
           <Hours/>
           <Events/>
-          <Contact lang={formLanguages[locale]}/>
+          <Contact lang={formLanguages[locale] || formLanguages['en-US']}/>
           <Map/>
           <Footer />
         </div>
