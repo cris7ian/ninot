@@ -40,4 +40,4 @@ frameborder="0" height="550" width="100%"></iframe>
 - [x] Contact Form to email
 - [x] Localization
 - [x] Map
-- [ ] New images
+- [x] New images
