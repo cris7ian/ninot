@@ -18,6 +18,8 @@ import messages from './messages';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'react-image-gallery/styles/css/image-gallery.css'
+import member from './img/member.jpg'
+import Gastronomy from "./components/Gastronomy"
 require('bootstrap/dist/js/bootstrap')
 
 addLocaleData([...en, ...es, ...ca]);
@@ -78,6 +80,7 @@ class App extends Component {
               </div>
             </div>
           </div>
+          <Gastronomy/>
 
           <div className="blocks">
             <div className="container">
@@ -93,6 +96,9 @@ class App extends Component {
           <Hours/>
           <Events/>
           <Contact lang={formLanguages[locale] || formLanguages['en-US']}/>
+          <div id="memberLogo">
+            <img src={member}  alt="Barcelona Turismo"/>
+          </div>
           <Map/>
           <Footer />
         </div>

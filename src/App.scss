@@ -18,6 +18,11 @@ $yellow: #fec33e;
   src: url("./fonts/EamesCenturyModern-Black.otf") format("opentype");
 }
 
+.navbar-collapse {
+  position: relative;
+  top: 4px;
+}
+
 .footer {
   color: white;
   width: 100%;
@@ -55,7 +60,7 @@ body {
   color: $green;
   min-height: 100%;
   background-size: cover;
-  background-image: url('./img/local_banner.JPG');
+  background-image: url('./img/portada.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -142,20 +147,25 @@ h1 {
     font-family: 'Akkurat', 'EB Garamont', serif;
     font-size: 4em;
     text-align: center;
-    font-style: italic;
-    text-shadow: 2px 1px 0px #DBA67B, 2px 2px 0px rgba(0,0,0,0.15);
 
   }
 }
 
 #the-space {
   h3 {
-    text-shadow: 2px 1px 0px #DBA67B, 2px 2px 0px rgba(0,0,0,0.15);
     color: $green;
     font-family: 'Akkurat', 'EB Garamont', serif;
     font-size: 4em;
     text-align: center;
-    font-style: italic;
+  }
+}
+
+#the-gastronomy {
+  h3 {
+    color: $green;
+    font-family: 'Akkurat', 'EB Garamont', serif;
+    font-size: 4em;
+    text-align: center;
   }
 }
 
@@ -165,43 +175,38 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #D7D6A5;
 
   h3 {
+    color: $green;
+
     font-family: 'Akkurat', 'EB Garamont', serif;
     font-size: 4em;
     text-align: center;
-    font-style: italic;
-    text-shadow: 2px 1px 0px #DBA67B, 2px 2px 0px rgba(0,0,0,0.15);
-
   }
 }
 
 #opening-hours {
 
   h3 {
+    color: $green;
     font-family: 'Akkurat', 'EB Garamont', serif;
     font-size: 4em;
     text-align: center;
-    font-style: italic;
-    text-shadow: 2px 1px 0px #DBA67B, 2px 2px 0px rgba(0,0,0,0.15);
 
   }
 }
 
 #book-now {
   h3 {
+    color: $green;
     font-family: 'Akkurat', 'EB Garamont', serif;
     font-size: 4em;
     text-align: center;
-    font-style: italic;
-    text-shadow: 2px 1px 0px #DBA67B;
 
   }
 }
 
 #events{
-  color: $green;
   min-height: 100%;
   background-size: cover;
   background-image: url('./img/local_13.jpg');
@@ -210,6 +215,8 @@ h1 {
   background-repeat: no-repeat;
 
   h1 {
+    color: $green;
+
     font-family: 'Eames-b', 'Gravitas One', cursive;;
     font-size: 10em;
     text-align: center;
@@ -219,11 +226,10 @@ h1 {
 }
 
 .description {
-  color: #A55C55;
   background: rgba(255,255,255,.90);
   margin: 1em;
   padding: 3em;
-  box-shadow: 4px 3px 0px #A55C55, 9px 8px 0px rgba(0,0,0,0.15);
+  box-shadow: 4px 3px 0px $green, 9px 8px 0px rgba(0,0,0,0.15);
 
 }
 
@@ -235,6 +241,8 @@ h1 {
   float: right;
   cursor: pointer;
   color: white;
+  position: relative;
+  top: 4px;
 
   span:hover {
     text-decoration: underline;
@@ -312,4 +320,13 @@ h1 {
   background:none!important;
   height:500px;
   width: 100%;
+}
+
+#memberLogo {
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+  img {
+   width: 300px;
+  }
 }

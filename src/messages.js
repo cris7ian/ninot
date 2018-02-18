@@ -5,6 +5,15 @@ export default {
       p1: "Designed by Dani Freixes / Varis Arquitectes, the interior combines raw, industrial elements with pale wood, delicate lighting and designer furniture, in a tasteful, sophisticated blend, which soften the brick floor and the metal openwork ceiling. ",
       p2: "Upon entering, you are welcomed by a cozy, chill out area with plenty of natural light, perfect for a morning coffee as well as a late night drink. The back provides lots of sitting space at different sized tables, making El Ninot the perfect place for both big and small gatherings. Everything is tied together with a massive, rectangular, marble bar, which stands in the center of the restaurant, naturally separating the eating and drinking areas. High stools line one of its sides, while comfortable chairs can be found on the other end, for those who prefer to eat at the bar instead of a table. The back also features an open kitchen complete with a traditional scale, which we use to measure our hefty portions of fresh meat and seafood."
     },
+    gastronomy: {
+      title: 'The Gastronomy',
+      p1: "We offer Catalan cuisine with a modern twist. We always encourage our talented team of\n" +
+      "chefs to experiment with local, seasonal products and craft unique, imaginative menus. Our\n" +
+      "ingredients are always supplied fresh from local markets, including but not limited to the\n" +
+      "Mercat del Ninot next doors.",
+      p2: "We are open daily till 00:00, also making us the ideal place for a drink after work or a late night\n" +
+      "cocktail."
+    },
     about: {
       p1: "Not long ago, El Ninot was acquired by the team behind an ever-growing gastronomical powerhouse, which includes some of Barcelona’s finest establishments, such as Touché and Ice Bar, which can both be found near Barcelona’s Port Olimpic. We are deeply committed to excellent service and apply innovative design to the food in order to provide reasonably priced, high-quality products and elevate your dining experience.",
       p2: "We fell in love with this place, the moment we stepped foot here. We see El Ninot as more than a restaurant. It is a project that aspires to breath new life into a wonderful, unique space with infinite potential. We aim to provide a tasty menu, to be enjoyed in a secluded oasis right next to a lively market, and we have worked hard to provide you with a friendly, experienced team of talented chefs, bartenders and servers. We aspire to become a place that is frequented and loved by tourists and locals alike and wish to prepare and serve food and wine of the finest quality."
@@ -52,6 +61,16 @@ export default {
       title: 'El Espacio',
       p1: "Diseñado por Dani Freixes / (Varis Arquitectes el interior combina elementos puros e industriales con parqué claro, una iluminación delicada y muebles de diseño con una mezcla sofisticada y elegante que suaviza el suelo de ladrillo y el techo metálico calado.",
       p2: "En la entrada, serán recibidos por la acogedora zona chill out, con luz natural, perfecta para el café de la mañana, así como también para una copa por la noche. La parte trasera ofrece cantidad de espacio para sentarse, con mesas de diferentes tamaños, haciendo de El Ninot el sitio perfecto para pequeños y grandes eventos. Todos los elementos están unidos por una gran y rectangular barra de mármol, que se encuentra en el centro del restaurante, separando las zonas para comidas y bebidas. Unos altos taburetes se encuentran en una parte de la barra, mientras que unas sillas más cómodas pueden encontrarse al final de la barra para aquellos que prefieran comer en la barra en lugar de las mesas. La parte trasera también cuenta con una cocina abierta que cuenta con una balanza tradicional que se usa para pesar grandes cantidades de carne y marisco fresco."
+    },
+    gastronomy: {
+      title: 'La Gastronomía',
+      p1: "Ofrecemos cocina catalana con un toque moderno. Siempre animamos a\n" +
+      "nuestro talentoso equipo de chefs a experimentar con productos locales y de\n" +
+      "temporada para crear menús únicos y creativos. Nuestros ingredientes siempre\n" +
+      "son frescos y provienen de mercados locales, incluyendo, pero no limitando, al\n" +
+      "Mercado del Ninot.",
+      p2: "Estamos abiertos cada día hasta las 00.00, lo que hace El Ninot de un lugar\n" +
+      "perfecto para tomar algo después del trabajo o para un cóctel por la noche.\n"
     },
     about: {
       p1: "No hace mucho tiempo, El Ninot ha sido adquirido por el equipo que está detrás de un creciente y fuerte grupo gastronómico, en el que se incluyen algunos de los establecimientos más excelentes de Barcelona, como Touché y Ice Bar, ambos se pueden encontrar cerca del Puerto Olímpico de Barcelona. Estamos profundamente comprometidos en dar un excelente servicio y aplicar un diseño innovador a nuestra comida con tal de ofrecer un precio razonable, productos de alta calidad e incrementar su experiencia gastronómica.",
@@ -101,6 +120,16 @@ export default {
       title: 'El lloc',
       p1: "Dissenyat per Dani Freixes / (Varis Arquitectes), l'interior combina elements purs i industrials amb parquet clar, una il·luminació delicada i mobles de disseny amb una barreja sofisticada i elegant que suavitza el sòl de maó i el sostre metàl·lic calat.",
       p2: "A l'entrada, seran rebuts per la acollidora zona chill out, amb llum natural, perfecta per al cafè del matí així com també per a una copa a la nit. La part posterior ofereix quantitat d'espai per asseure's, amb taules de diferents grandàries, fent El Ninot el lloc perfecte per a petits i grans esdeveniments. Tots els elements estan units per una gran i rectangular barra de marbre, que es troba al centre del restaurant, separant les zones per a menjars i begudes. Uns alts tamborets es troben en una part de la barra, mentre que unes cadires més còmodes poden trobar-se al final de la barra per a aquells que prefereixin menjar a la barra en lloc de les taules. La part posterior també compta amb una cuina oberta amb una balança tradicional que s'utilitza per pesar grans quantitats de carn i marisc fresc."
+    },
+    gastronomy: {
+      title: 'La Gastronomia',
+      p1: "Oferim cuina catalana amb un toc modern. Sempre animem al nostre talentós\n" +
+      "equip de xefs a experimentar amb productes locals i de temporada per crear\n" +
+      "menús únics i creatius. Els nostres ingredients sempre són frescos i provenen\n" +
+      "de mercats locals, incloent però no limitant, al Mercat del Ninot.\n",
+      p2: "Estem oberts cada dia fins a les 00.00, la qual cosa fa que El Ninot sigui un lloc\n" +
+      "perfecte per prendre alguna cosa després del treball o per un còctel / cocktail a\n" +
+      "la nit."
     },
     about: {
       p1: "No fa molt temps, El Ninot ha sigut adquirit per l'equip que està darrere d'un creixent i fort grup gastronòmic en el qual s'inclouen alguns dels establiments més excel·lents de Barcelona, com El Touché i L’Ice Bar, tots dos es poden trobar a prop del Port Olímpic de Barcelona.  Estem profundament compromesos en donar un excel·lent servei i aplicar un disseny innovador al nostre menjar per tal d'oferir un preu raonable, productes d'alta qualitat, així com incrementar la seva experiència gastronòmica.",

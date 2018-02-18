@@ -12,6 +12,10 @@
   font-weight: bold;
   src: url("./fonts/EamesCenturyModern-Black.otf") format("opentype"); }
 
+.navbar-collapse {
+  position: relative;
+  top: 4px; }
+
 .footer {
   color: white;
   width: 100%;
@@ -44,7 +48,7 @@ body {
   color: #265f3f;
   min-height: 100%;
   background-size: cover;
-  background-image: url("./img/local_banner.JPG");
+  background-image: url("./img/portada.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat; }
@@ -111,49 +115,46 @@ h1 {
   color: #265f3f;
   font-family: 'Akkurat', 'EB Garamont', serif;
   font-size: 4em;
-  text-align: center;
-  font-style: italic;
-  text-shadow: 2px 1px 0px #DBA67B, 2px 2px 0px rgba(0, 0, 0, 0.15); }
+  text-align: center; }
 
 #the-space h3 {
-  text-shadow: 2px 1px 0px #DBA67B, 2px 2px 0px rgba(0, 0, 0, 0.15);
   color: #265f3f;
   font-family: 'Akkurat', 'EB Garamont', serif;
   font-size: 4em;
-  text-align: center;
-  font-style: italic; }
+  text-align: center; }
+
+#the-gastronomy h3 {
+  color: #265f3f;
+  font-family: 'Akkurat', 'EB Garamont', serif;
+  font-size: 4em;
+  text-align: center; }
 
 #the-location {
   background-image: url("./img/local_5.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  color: #D7D6A5; }
+  background-size: cover; }
 
 #the-location h3 {
+  color: #265f3f;
   font-family: 'Akkurat', 'EB Garamont', serif;
   font-size: 4em;
-  text-align: center;
-  font-style: italic;
-  text-shadow: 2px 1px 0px #DBA67B, 2px 2px 0px rgba(0, 0, 0, 0.15); }
+  text-align: center; }
 
 #opening-hours h3 {
+  color: #265f3f;
   font-family: 'Akkurat', 'EB Garamont', serif;
   font-size: 4em;
-  text-align: center;
-  font-style: italic;
-  text-shadow: 2px 1px 0px #DBA67B, 2px 2px 0px rgba(0, 0, 0, 0.15); }
+  text-align: center; }
 
 #book-now h3 {
+  color: #265f3f;
   font-family: 'Akkurat', 'EB Garamont', serif;
   font-size: 4em;
-  text-align: center;
-  font-style: italic;
-  text-shadow: 2px 1px 0px #DBA67B; }
+  text-align: center; }
 
 #events {
-  color: #265f3f;
   min-height: 100%;
   background-size: cover;
   background-image: url("./img/local_13.jpg");
@@ -162,17 +163,17 @@ h1 {
   background-repeat: no-repeat; }
 
 #events h1 {
+  color: #265f3f;
   font-family: 'Eames-b', 'Gravitas One', cursive;
   font-size: 10em;
   text-align: center;
   text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15); }
 
 .description {
-  color: #A55C55;
   background: rgba(255, 255, 255, 0.9);
   margin: 1em;
   padding: 3em;
-  box-shadow: 4px 3px 0px #A55C55, 9px 8px 0px rgba(0, 0, 0, 0.15); }
+  box-shadow: 4px 3px 0px #265f3f, 9px 8px 0px rgba(0, 0, 0, 0.15); }
 
 .row {
   justify-content: center; }
@@ -180,7 +181,9 @@ h1 {
 .languages {
   float: right;
   cursor: pointer;
-  color: white; }
+  color: white;
+  position: relative;
+  top: 4px; }
 
 .languages span:hover {
   text-decoration: underline; }
@@ -218,3 +221,11 @@ h1 {
   background: none !important;
   height: 500px;
   width: 100%; }
+
+#memberLogo {
+  padding: 50px;
+  text-align: center;
+  margin: auto; }
+
+#memberLogo img {
+  width: 300px; }
