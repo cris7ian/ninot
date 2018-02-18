@@ -5,21 +5,20 @@ const Events = () => (
   <div className="blocks" id="events">
     <div className="container">
       <div className="row justify-content-md-center">
-        <div className="col-xl">
-          <h1>
+        <div className="col col-lg-8">
+          <div className="description">
+          <h3>
             <FormattedMessage id="events.title"/>
-          </h1>
+          </h3>
 
-          <div className="row">
 
-            <div className="col-md-5 description">
+            <p>
               <FormattedMessage id="events.p1"/>
-            </div>
+            </p>
 
-            <div className="col-md-5 description">
+            <p>
               <FormattedMessage id="events.p2"/>
-            </div>
-
+            </p>
           </div>
         </div>
       </div>

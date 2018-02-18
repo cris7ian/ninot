@@ -1,22 +1,14 @@
 import React from 'react'
-import Gallery from 'react-grid-gallery'
 import ImageGallery from 'react-image-gallery'
-
-const IMAGES_FOOD = Array(9).fill().map((_, i) => ({
-  src: `${process.env.PUBLIC_URL}/img/food_${i + 1}.jpg`,
-  thumbnail: `${process.env.PUBLIC_URL}/img/food_${i + 1}.jpg`,
-  thumbnailWidth: 100
-}))
 
 const IMAGES_FOOD_FULL_GALLERY = [2,3, 6, 8 ,9].map(i => ({
   original: `${process.env.PUBLIC_URL}/img/food_${i}.jpg`,
   thumbnail: `${process.env.PUBLIC_URL}/img/food_${i}.jpg`,
 }))
 
-const IMAGES_LOCAL = [1, 2, 3, 6, 7, 8].map(i => ({
-  src: `${process.env.PUBLIC_URL}/img/local_${i}.jpg`,
-  thumbnail: `${process.env.PUBLIC_URL}/img/local_${i}.jpg`,
-  thumbnailWidth: 60
+const IMAGES_LOCAL = [1, 2, 3, 4, 5, 6].map(i => ({
+  original: `${process.env.PUBLIC_URL}/img/space${i}.jpg`,
+  thumbnail: `${process.env.PUBLIC_URL}/img/space${i}.jpg`,
 }))
 
 const FoodGallery = () => (
@@ -31,26 +23,14 @@ const FoodGallery = () => (
   </div>
 )
 
-const FoodGalleryGrid = () => (
-  <div>
-    <Gallery
-      id="foodGalleryGrid"
-      images={IMAGES_FOOD}
-      rowHeight={180}
-      enableImageSelection={false}
-    />
-  </div>
-)
-
-const LocalGalleryGrid = () => (
+const SpaceGallery = () => (
   <div id="localGallery">
-    <Gallery
-      id="localGallery"
-      images={IMAGES_LOCAL}
-      rowHeight={190}
-      enableImageSelection={false}
+    <ImageGallery
+      showThumbnails={true}
+      showPlayButton={false}
+      items={IMAGES_LOCAL}
     />
   </div>
 )
 
-export { FoodGalleryGrid, LocalGalleryGrid, FoodGallery }
+export { SpaceGallery, FoodGallery }

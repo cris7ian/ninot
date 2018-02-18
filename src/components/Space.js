@@ -1,5 +1,5 @@
 import React from 'react'
-import { LocalGalleryGrid } from '../GalleryGrid'
+import { SpaceGallery } from '../GalleryGrid'
 import {FormattedMessage} from "react-intl"
 
 
@@ -16,7 +16,7 @@ const Space = () => (
             <FormattedMessage id="space.p2"/>
           </p>
 
-          <LocalGalleryGrid />
+          <SpaceGallery />
         </div>
       </div>
     </div>
