@@ -61,7 +61,7 @@ class App extends Component {
           <Navigation onChangeLanguage={this.onChangeLanguage} />
           <header id="hero" className="main-banner">
             <div className="container main">
-              <h1>El Ninot</h1>
+              <h1> </h1>
             </div>
           </header>
 
