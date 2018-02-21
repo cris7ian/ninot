@@ -21,19 +21,15 @@
   width: 100%;
   background-color: #265f3f;
   padding: 3em; }
-
-.footer a {
-  color: white;
-  text-decoration: underline; }
-
-.footer a:hover {
-  color: white; }
-
-.footer h4 {
-  font-family: 'Eames', 'Gravitas One', serif; }
-
-.footer i {
-  font-size: 2em; }
+  .footer a {
+    color: white;
+    text-decoration: underline; }
+  .footer a:hover {
+    color: white; }
+  .footer h4 {
+    font-family: 'Eames', 'Gravitas One', serif; }
+  .footer i {
+    font-size: 2em; }
 
 body {
   background: #222;
@@ -68,26 +64,23 @@ body {
   margin: 0 auto;
   top: 0;
   z-index: 300; }
-
-#nav ul, #nav .navbar-brand {
-  cursor: pointer; }
+  #nav ul, #nav .navbar-brand {
+    cursor: pointer; }
 
 header {
   position: relative;
   background-color: #FD7777;
   padding: 18em 0 16em;
   z-index: 2; }
-
-header h1 {
-  font-family: 'Eames-b', 'Gravitas One', cursive;
-  font-size: 10em;
-  text-align: center;
-  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15); }
-
-header h3 {
-  font-size: 3em;
-  text-align: center;
-  text-shadow: 2px 1px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15); }
+  header h1 {
+    font-family: 'Eames-b', 'Gravitas One', cursive;
+    font-size: 10em;
+    text-align: center;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15); }
+  header h3 {
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 2px 1px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15); }
 
 h1 {
   font-family: 'Eames', 'Gravitas One', cursive;
@@ -134,12 +127,11 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
-
-#the-location h3 {
-  color: #265f3f;
-  font-family: 'Akkurat', 'EB Garamont', serif;
-  font-size: 4em;
-  text-align: center; }
+  #the-location h3 {
+    color: #265f3f;
+    font-family: 'Akkurat', 'EB Garamont', serif;
+    font-size: 4em;
+    text-align: center; }
 
 #opening-hours h3 {
   color: #265f3f;
@@ -160,19 +152,17 @@ h1 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat; }
-
-#events h3 {
-  color: #265f3f;
-  font-family: 'Akkurat', 'EB Garamont', serif;
-  font-size: 4em;
-  text-align: center; }
-
-#events h1 {
-  color: #265f3f;
-  font-family: 'Eames-b', 'Gravitas One', cursive;
-  font-size: 10em;
-  text-align: center;
-  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15); }
+  #events h3 {
+    color: #265f3f;
+    font-family: 'Akkurat', 'EB Garamont', serif;
+    font-size: 4em;
+    text-align: center; }
+  #events h1 {
+    color: #265f3f;
+    font-family: 'Eames-b', 'Gravitas One', cursive;
+    font-size: 10em;
+    text-align: center;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15); }
 
 .description {
   background: rgba(255, 255, 255, 0.9);
@@ -189,9 +179,8 @@ h1 {
   color: white;
   position: relative;
   top: 4px; }
-
-.languages span:hover {
-  text-decoration: underline; }
+  .languages span:hover {
+    text-decoration: underline; }
 
 @media (max-width: 600px) {
   #localGallery img {
@@ -231,6 +220,5 @@ h1 {
   padding: 50px;
   text-align: center;
   margin: auto; }
-
-#memberLogo img {
-  width: 300px; }
+  #memberLogo img {
+    width: 300px; }

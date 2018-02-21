@@ -1,12 +1,12 @@
 export default {
   'en-US': {
     space: {
-      title: 'The Space',
+      title: 'Space',
       p1: "Designed by Dani Freixes / Varis Arquitectes, the interior combines raw, industrial elements with pale wood, delicate lighting and designer furniture, in a tasteful, sophisticated blend, which soften the brick floor and the metal openwork ceiling. ",
       p2: "Upon entering, you are welcomed by a cozy, chill out area with plenty of natural light, perfect for a morning coffee as well as a late night drink. The back provides lots of sitting space at different sized tables, making El Ninot the perfect place for both big and small gatherings. Everything is tied together with a massive, rectangular, marble bar, which stands in the center of the restaurant, naturally separating the eating and drinking areas. High stools line one of its sides, while comfortable chairs can be found on the other end, for those who prefer to eat at the bar instead of a table. The back also features an open kitchen complete with a traditional scale, which we use to measure our hefty portions of fresh meat and seafood."
     },
     gastronomy: {
-      title: 'The Gastronomy',
+      title: 'Gastronomy',
       p1: "We offer Catalan cuisine with a modern twist. We always encourage our talented team of\n" +
       "chefs to experiment with local, seasonal products and craft unique, imaginative menus. Our\n" +
       "ingredients are always supplied fresh from local markets, including but not limited to the\n" +
@@ -19,7 +19,7 @@ export default {
       p2: "We fell in love with this place, the moment we stepped foot here. We see El Ninot as more than a restaurant. It is a project that aspires to breath new life into a wonderful, unique space with infinite potential. We aim to provide a tasty menu, to be enjoyed in a secluded oasis right next to a lively market, and we have worked hard to provide you with a friendly, experienced team of talented chefs, bartenders and servers. We aspire to become a place that is frequented and loved by tourists and locals alike and wish to prepare and serve food and wine of the finest quality."
     },
     location: {
-      title: "The Location",
+      title: "Location",
       p1:"Our restaurant can be found inside Mercat del Ninot, a small, yet abundant market, tucked away on the edge of Eixample, near Hospital Clinic. Situated comfortably far from the hustle and bustle of the Barcelona city center, El Ninot is still easily accessible by foot or by public transport. This vibrant, residential district, full of upscale buildings and boutiques, is a brilliant alternative to the constantly packed Gòtic and even Born, with less tourists and a much more elegant overall feel.",
       p2: "The market sells local and fresh meat, fish, vegetables, dairy and a variety of homemade delicacies. It is a place where hundreds of locals get their produce every day; clean and calm it differs greatly from other food bazaars, like Boqueria or the Mercado de Santa Caterina, which many tourists will flock to."
     },
@@ -58,12 +58,12 @@ export default {
   },
   'es': {
     space: {
-      title: 'El Espacio',
+      title: 'Espacio',
       p1: "Diseñado por Dani Freixes / (Varis Arquitectes el interior combina elementos puros e industriales con parqué claro, una iluminación delicada y muebles de diseño con una mezcla sofisticada y elegante que suaviza el suelo de ladrillo y el techo metálico calado.",
       p2: "En la entrada, serán recibidos por la acogedora zona chill out, con luz natural, perfecta para el café de la mañana, así como también para una copa por la noche. La parte trasera ofrece cantidad de espacio para sentarse, con mesas de diferentes tamaños, haciendo de El Ninot el sitio perfecto para pequeños y grandes eventos. Todos los elementos están unidos por una gran y rectangular barra de mármol, que se encuentra en el centro del restaurante, separando las zonas para comidas y bebidas. Unos altos taburetes se encuentran en una parte de la barra, mientras que unas sillas más cómodas pueden encontrarse al final de la barra para aquellos que prefieran comer en la barra en lugar de las mesas. La parte trasera también cuenta con una cocina abierta que cuenta con una balanza tradicional que se usa para pesar grandes cantidades de carne y marisco fresco."
     },
     gastronomy: {
-      title: 'La Gastronomía',
+      title: 'Gastronomía',
       p1: "Ofrecemos cocina catalana con un toque moderno. Siempre animamos a\n" +
       "nuestro talentoso equipo de chefs a experimentar con productos locales y de\n" +
       "temporada para crear menús únicos y creativos. Nuestros ingredientes siempre\n" +
@@ -77,7 +77,7 @@ export default {
       p2: "Nos enamoramos de éste lugar en el mismo momento en el que entramos. El Ninot es mucho más que un restaurante para nosotros. Es un proyecto que aspira a convertirse en un maravilloso y singular espacio con un potencial infinito.  Nuestro objetivo es ofrecer un sabroso menú, que puede ser disfrutado en un recóndito oasis justo al lado de un animado mercado y hemos trabajado duro para ofrecerles un equipo de chefs, bartenders y camareros, amables y con experiencia. Queremos convertirnos en un lugar frecuentado y querido por turistas y locales por igual. Deseamos preparar y servir excelente comida y vinos de la más alta calidad."
     },
     location: {
-      title: "La Ubicación",
+      title: "Ubicación",
       p1:"Nuestro restaurante se encuentra dentro del Mercado del Ninot, un pequeño pero concurrido mercado escondido en el límite del Eixample, cerca de Hospital Clinic. Situado bastante lejos del ajetreado y frenético centro de Barcelona, El Ninot sigue siendo fácilmente accesible a pie o en transporte público. Éste energético y barrio residencial, lleno de elegantes edificios y tiendas, es una excelente alternativa al masificado barrio Gótico o el Born, con muchos menos turistas y con mejor ambiente.",
       p2: "El mercado vende productos frescos y locales, como carne, pescado, verduras y una gran variedad de delicatessen hechas diariamente. Es un lugar donde cientos de vecinos hacen su compra diaria. Limpio y tranquilo, dista mucho de otros mercados de comida, como La Boquería o el Mercado de Santa Caterina, en los cuales hay gran afluencia de turistas."
     },
@@ -117,18 +117,18 @@ export default {
   },
   'ca': {
     space: {
-      title: 'El lloc',
+      title: 'lloc',
       p1: "Dissenyat per Dani Freixes / (Varis Arquitectes), l'interior combina elements purs i industrials amb parquet clar, una il·luminació delicada i mobles de disseny amb una barreja sofisticada i elegant que suavitza el sòl de maó i el sostre metàl·lic calat.",
       p2: "A l'entrada, seran rebuts per la acollidora zona chill out, amb llum natural, perfecta per al cafè del matí així com també per a una copa a la nit. La part posterior ofereix quantitat d'espai per asseure's, amb taules de diferents grandàries, fent El Ninot el lloc perfecte per a petits i grans esdeveniments. Tots els elements estan units per una gran i rectangular barra de marbre, que es troba al centre del restaurant, separant les zones per a menjars i begudes. Uns alts tamborets es troben en una part de la barra, mentre que unes cadires més còmodes poden trobar-se al final de la barra per a aquells que prefereixin menjar a la barra en lloc de les taules. La part posterior també compta amb una cuina oberta amb una balança tradicional que s'utilitza per pesar grans quantitats de carn i marisc fresc."
     },
     gastronomy: {
-      title: 'La Gastronomia',
+      title: 'Gastronomia',
       p1: "Oferim cuina catalana amb un toc modern. Sempre animem al nostre talentós\n" +
       "equip de xefs a experimentar amb productes locals i de temporada per crear\n" +
       "menús únics i creatius. Els nostres ingredients sempre són frescos i provenen\n" +
       "de mercats locals, incloent però no limitant, al Mercat del Ninot.\n",
       p2: "Estem oberts cada dia fins a les 00.00, la qual cosa fa que El Ninot sigui un lloc\n" +
-      "perfecte per prendre alguna cosa després del treball o per un còctel / cocktail a\n" +
+      "perfecte per prendre alguna cosa després del treball o per un còctel a\n" +
       "la nit."
     },
     about: {
@@ -136,20 +136,20 @@ export default {
       p2: "Ens vam enamorar d'aquest lloc des de que vam entrar. El Ninot és molt més que un restaurant per a nosaltres. És un projecte que aspira a convertir-se en un meravellós i singular espai amb un potencial infinit.  El nostre objectiu és oferir un saborós menú,  que pot ser gaudit en un recòndit oasi just al costat d'un animat mercat i hem treballat dur per oferir-los un equip de xefs, bartenders i cambrers, amables i amb experiència. Volem convertir-nos en un lloc freqüentat i  desitjat per turistes i locals per igual. Desitgem preparar i servir excel·lent menjar i vins de la més alta qualitat."
     },
     location: {
-      title: "La Ubicació",
+      title: "Ubicació",
       p1:"El nostre restaurant es troba dins del Mercat del Ninot, un petit però concorregut mercat amagat en el límit de l'Eixample, a prop de l’Hospital Clínic. Situat bastant lluny de l'atrafegat i frenètic centre de Barcelona, El Ninot segueix sent fàcilment accessible a peu o en transport públic. Aquest energètic i barri residencial, ple d'elegants edificis i tendes, és una excel·lent alternativa al massificat barri Gòtic o el Born, amb molts menys turistes i amb millor ambient.",
-      p2: "El mercat ven productes frescos i locals, com carn, peix, verdures i una gran varietat de delicatessen / exquisideses fetes diàriament. És un lloc on centenars de veïns fan la seva compra diària. Net i tranquil, dista molt d'altres mercats de menjar, com la Boqueria o el Mercat de Santa Caterina, en els quals hi ha gran afluència de turistes."
+      p2: "El mercat ven productes frescos i locals, com carn, peix, verdures i una gran varietat de delicatessen fetes diàriament. És un lloc on centenars de veïns fan la seva compra diària. Net i tranquil, dista molt d'altres mercats de menjar, com la Boqueria o el Mercat de Santa Caterina, en els quals hi ha gran afluència de turistes."
     },
     hours: {
       title: "Horari",
       p1: "De diumenge a dimecres està obert de 9.30 a 16.00. La cuina està oberta de 12.00 a 16.00.",
-      p2: "Acosta't a prendre un cafè al matí, un snack / piscolabis abans o després de la compra de productes frescos al mercat o vine i gaudeix del nostre menú diari de migdia.",
+      p2: "Acosta't a prendre un cafè al matí, un snack abans o després de la compra de productes frescos al mercat o vine i gaudeix del nostre menú diari de migdia.",
       p3: "De dijous a dissabte estem oberts de 9.30 a 00.00, la cuina està oberta tot el dia, llestos per servir-te des del matí fins al tancament."
     },
     events: {
       title: "Esdeveniments",
       p1: "A més d'oferir productes d'excel·lent qualitat, un servei sublim i un disseny refinat, El Ninot es compromet a expandir l'oferta cultural de Barcelona. Una vegada al mes organitzem \"ART A LA CUINA\", un divertit esdeveniment acompanyat d'una exhibició de nous artistes locals. Les obres romanen a les nostres parets durant les següents setmanes i estan disponibles per adquirir-les aquesta mateixa nit o durant el següent mes, fins a la següent exposició. Mantingueu-vos informats sobre els nostres esdeveniments “D’ART A LA CUINA\" a les nostres xarxes socials.",
-      p2: "Així mateix, el nostre espai és perfecte per a petits i grans esdeveniments. Tenim 12 anys d'experiència, combinats amb la nostra llarga experiència en el sector gastronòmic i l'organització d'esdeveniments. Tenim un aforament màxim de 400 persones i com a referent en restauració, oferim un servei personalitzat amb djs, fotògrafs, decoracions i qualsevol altra cosa que puguis necessitar per personificar el teu esdeveniment en El Ninot."
+      p2: "Així mateix, el nostre espai és perfecte per a petits i grans esdeveniments. Tenim 12 anys d'experiència, combinats amb la nostra llarga experiència en el sector gastronòmic i l'organització d'esdeveniments. Tenim un aforament màxim de 200 persones i com a referent en restauració, oferim un servei personalitzat amb djs, fotògrafs, decoracions i qualsevol altra cosa que puguis necessitar per personificar el teu esdeveniment en El Ninot."
     },
     footer: {
       location: "Lloc",
@@ -167,8 +167,8 @@ export default {
       submit: "Enviar Formulari"
     },
     menu: {
-      space: 'El Lloc',
-      location: 'La ubicació',
+      space: 'Lloc',
+      location: 'ubicació',
       events: 'Esdeveniments',
       book: 'Reserva'
     }

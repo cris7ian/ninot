@@ -18,7 +18,11 @@ import messages from './messages';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'react-image-gallery/styles/css/image-gallery.css'
-import member from './img/member.jpg'
+import member_en from './img/member_en.jpg'
+import member_es from './img/member_es.jpg'
+import member_ca from './img/member_ca.jpg'
+
+
 import Gastronomy from "./components/Gastronomy"
 require('bootstrap/dist/js/bootstrap')
 
@@ -36,6 +40,12 @@ const formLanguages = {
   'ca': 'catalan',
   'en-US': 'english',
   'es': 'spanish'
+}
+
+const member = {
+  'en-US': member_en,
+  es: member_es,
+  ca: member_ca
 }
 
 class App extends Component {
@@ -97,7 +107,7 @@ class App extends Component {
           <Events/>
           <Contact lang={formLanguages[locale] || formLanguages['en-US']}/>
           <div id="memberLogo">
-            <img src={member}  alt="Barcelona Turismo"/>
+            <img src={member[locale]}  alt="Barcelona Turismo"/>
           </div>
           <Map/>
           <Footer />
