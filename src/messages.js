@@ -15,7 +15,7 @@ export default {
       "cocktail."
     },
     about: {
-      p1: "Not long ago, El Ninot was acquired by the team behind an ever-growing gastronomical powerhouse, which includes some of Barcelona’s finest establishments, such as Touché and Ice Bar, which can both be found near Barcelona’s Port Olimpic. We are deeply committed to excellent service and apply innovative design to the food in order to provide reasonably priced, high-quality products and elevate your dining experience.",
+      p1: "Not long ago, El Ninot was acquired by the team behind an ever-growing gastronomical powerhouse, which includes some of Barcelona’s finest establishments, such as Touché, Coconut club and Ice Bar, which can both be found near Barcelona’s Port Olimpic. We are deeply committed to excellent service and apply innovative design to the food in order to provide reasonably priced, high-quality products and elevate your dining experience.",
       p2: "We fell in love with this place, the moment we stepped foot here. We see El Ninot as more than a restaurant. It is a project that aspires to breath new life into a wonderful, unique space with infinite potential. We aim to provide a tasty menu, to be enjoyed in a secluded oasis right next to a lively market, and we have worked hard to provide you with a friendly, experienced team of talented chefs, bartenders and servers. We aspire to become a place that is frequented and loved by tourists and locals alike and wish to prepare and serve food and wine of the finest quality."
     },
     location: {
@@ -53,7 +53,8 @@ export default {
       space: 'The Space',
       location: 'Location',
       events: 'Events',
-      book: 'Book Now'
+      book: 'Book Now',
+      gastronomy: 'Gastronomy'
     }
   },
   'es': {
@@ -73,7 +74,7 @@ export default {
       "perfecto para tomar algo después del trabajo o para un cóctel por la noche.\n"
     },
     about: {
-      p1: "No hace mucho tiempo, El Ninot ha sido adquirido por el equipo que está detrás de un creciente y fuerte grupo gastronómico, en el que se incluyen algunos de los establecimientos más excelentes de Barcelona, como Touché y Ice Bar, ambos se pueden encontrar cerca del Puerto Olímpico de Barcelona. Estamos profundamente comprometidos en dar un excelente servicio y aplicar un diseño innovador a nuestra comida con tal de ofrecer un precio razonable, productos de alta calidad e incrementar su experiencia gastronómica.",
+      p1: "No hace mucho tiempo, El Ninot ha sido adquirido por el equipo que está detrás de un creciente y fuerte grupo gastronómico, en el que se incluyen algunos de los establecimientos más excelentes de Barcelona, como Touché, Coconut club y Ice Bar, ambos se pueden encontrar cerca del Puerto Olímpico de Barcelona. Estamos profundamente comprometidos en dar un excelente servicio y aplicar un diseño innovador a nuestra comida con tal de ofrecer un precio razonable, productos de alta calidad e incrementar su experiencia gastronómica.",
       p2: "Nos enamoramos de éste lugar en el mismo momento en el que entramos. El Ninot es mucho más que un restaurante para nosotros. Es un proyecto que aspira a convertirse en un maravilloso y singular espacio con un potencial infinito.  Nuestro objetivo es ofrecer un sabroso menú, que puede ser disfrutado en un recóndito oasis justo al lado de un animado mercado y hemos trabajado duro para ofrecerles un equipo de chefs, bartenders y camareros, amables y con experiencia. Queremos convertirnos en un lugar frecuentado y querido por turistas y locales por igual. Deseamos preparar y servir excelente comida y vinos de la más alta calidad."
     },
     location: {
@@ -112,7 +113,9 @@ export default {
       space: 'El Espacio',
       location: 'El Lugar',
       events: 'Eventos',
-      book: 'Reserva'
+      book: 'Reserva',
+      gastronomy: 'Gastronomía'
+
     }
   },
   'ca': {
@@ -132,7 +135,7 @@ export default {
       "la nit."
     },
     about: {
-      p1: "No fa molt temps, El Ninot ha sigut adquirit per l'equip que està darrere d'un creixent i fort grup gastronòmic en el qual s'inclouen alguns dels establiments més excel·lents de Barcelona, com El Touché i L’Ice Bar, tots dos es poden trobar a prop del Port Olímpic de Barcelona.  Estem profundament compromesos en donar un excel·lent servei i aplicar un disseny innovador al nostre menjar per tal d'oferir un preu raonable, productes d'alta qualitat, així com incrementar la seva experiència gastronòmica.",
+      p1: "No fa molt temps, El Ninot ha sigut adquirit per l'equip que està darrere d'un creixent i fort grup gastronòmic en el qual s'inclouen alguns dels establiments més excel·lents de Barcelona, com El Touché, Coconut club i L’Ice Bar, tots dos es poden trobar a prop del Port Olímpic de Barcelona.  Estem profundament compromesos en donar un excel·lent servei i aplicar un disseny innovador al nostre menjar per tal d'oferir un preu raonable, productes d'alta qualitat, així com incrementar la seva experiència gastronòmica.",
       p2: "Ens vam enamorar d'aquest lloc des de que vam entrar. El Ninot és molt més que un restaurant per a nosaltres. És un projecte que aspira a convertir-se en un meravellós i singular espai amb un potencial infinit.  El nostre objectiu és oferir un saborós menú,  que pot ser gaudit en un recòndit oasi just al costat d'un animat mercat i hem treballat dur per oferir-los un equip de xefs, bartenders i cambrers, amables i amb experiència. Volem convertir-nos en un lloc freqüentat i  desitjat per turistes i locals per igual. Desitgem preparar i servir excel·lent menjar i vins de la més alta qualitat."
     },
     location: {
@@ -170,7 +173,8 @@ export default {
       space: 'Lloc',
       location: 'ubicació',
       events: 'Esdeveniments',
-      book: 'Reserva'
+      book: 'Reserva',
+      gastronomy: 'Gastronomia'
     }
   }
 }

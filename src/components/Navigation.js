@@ -15,6 +15,11 @@ const Navigation = ({onChangeLanguage}) => (
     <div className="collapse navbar-collapse" id="navbarCollapse">
       <ul className="navbar-nav navbar-right">
         <li className="nav-item active">
+          <a className="nav-link" onClick={scrollTo('#the-gastronomy')}>
+            <FormattedMessage id="menu.gastronomy"/>
+          </a>
+        </li>
+        <li className="nav-item active">
           <a className="nav-link" onClick={scrollTo('#the-space')}>
             <FormattedMessage id="menu.space"/>
           </a>
