@@ -10,10 +10,11 @@ const Contact = ({lang, intl: { formatMessage }}) => (
 
           <h3><FormattedMessage id="book.title1"/></h3>
           <iframe
+            id="bookingFrame"
             title="Reservas"
             src={`https://www.covermanager.com/reservation/module_restaurant/ninot-cuina/${lang}`}
             frameBorder="0"
-            height="550"
+            height="580"
             width="100%"
           />
         </div>
