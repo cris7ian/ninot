@@ -114,10 +114,10 @@ class App extends Component {
               <img src={member[locale]}  alt="Barcelona Turismo"/>
             </div>
             <div id="restaurantLogos">
-              <a rel="noopener noreferrer" target="_blank" href="http://www.touchbcn.com">
+              <a rel="noopener noreferrer" target="_blank" href="http://www.touchebcn.com">
                 <img src={toucheJPG} alt="touche"/>
               </a>
-              <a rel="noopener noreferrer" target="_blank" href="https://www.icebarcelona.com">
+              <a rel="noopener noreferrer" target="_blank" href="http://www.icebarcelona.com">
                 <img src={icebarJPG} alt="icebarcelona"/>
               </a>
               <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/thecoconutclubbcn/">

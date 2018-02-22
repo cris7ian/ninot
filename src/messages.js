@@ -50,7 +50,7 @@ export default {
       submit: "Submit Form"
     },
     menu: {
-      space: 'The Space',
+      space: 'Space',
       location: 'Location',
       events: 'Events',
       book: 'Book Now',
@@ -110,8 +110,8 @@ export default {
       submit: "Enviar formulario"
     },
     menu: {
-      space: 'El Espacio',
-      location: 'El Lugar',
+      space: 'Espacio',
+      location: 'Úbicación',
       events: 'Eventos',
       book: 'Reserva',
       gastronomy: 'Gastronomía'
@@ -171,7 +171,7 @@ export default {
     },
     menu: {
       space: 'Lloc',
-      location: 'ubicació',
+      location: 'Ubicació',
       events: 'Esdeveniments',
       book: 'Reserva',
       gastronomy: 'Gastronomia'
