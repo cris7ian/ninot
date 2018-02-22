@@ -111,7 +111,7 @@ export default {
     },
     menu: {
       space: 'Espacio',
-      location: 'Úbicación',
+      location: 'Ubicación',
       events: 'Eventos',
       book: 'Reserva',
       gastronomy: 'Gastronomía'
