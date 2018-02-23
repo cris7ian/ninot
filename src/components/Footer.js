@@ -10,7 +10,7 @@ const Footer = () => (
           Mercat del Ninot,<br/>
           Carrer de Casanova, 133,<br/>
           08036 Barcelona <br/>
-          <a href="https://www.instagram.com/elninot_cuina/">
+          <a href="https://www.instagram.com/ninot_cuina">
             <i className="fab fa-instagram"/>
           </a>
           {' '}
