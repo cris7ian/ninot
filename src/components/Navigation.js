@@ -42,11 +42,11 @@ const Navigation = ({onChangeLanguage}) => (
       </ul>
     </div>
     <div className="languages">
-      <span onClick={() => onChangeLanguage('en-US')}>en</span>
+      <span onClick={() => onChangeLanguage('ca')}>ca</span>
       {' • '}
       <span onClick={() => onChangeLanguage('es')}>es</span>
       {' • '}
-      <span onClick={() => onChangeLanguage('ca')}>ca</span>
+      <span onClick={() => onChangeLanguage('en-US')}>en</span>
     </div>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"/>

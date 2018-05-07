@@ -48,6 +48,7 @@ const Contact = ({lang, intl: { formatMessage }}) => (
                       className="form-control"
                       type="textarea"
                       id="message"
+                      onFocus={() => $('#submit').prop('disabled', false)}
                       placeholder={formatMessage({id: 'book.message'})}
                       maxLength="140"
                       rows="7"
@@ -56,6 +57,8 @@ const Contact = ({lang, intl: { formatMessage }}) => (
             <button
               type="button"
               id="submit"
+              disabled
+              style={{'float': 'right'}}
               onClick={() => {
                   $('#sent').hide()
                   window.fetch('https://ninot-mailer.herokuapp.com/', {

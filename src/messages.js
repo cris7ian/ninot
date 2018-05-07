@@ -47,7 +47,7 @@ export default {
       title2: "Contact Us",
       name: "Name",
       message: "Message",
-      submit: "Submit Form"
+      submit: "Ask us anything"
     },
     menu: {
       space: 'Space',
@@ -107,7 +107,7 @@ export default {
       title2: "Contacto",
       name: "Nombre",
       message: "Mensaje",
-      submit: "Enviar formulario"
+      submit: "Enviar Duda / Consulta"
     },
     menu: {
       space: 'Espacio',
@@ -167,7 +167,7 @@ export default {
       title2: "Contacte",
       name: "Nom",
       message: "Missatge",
-      submit: "Enviar Formulari"
+      submit: "Enviar Dubte / Consulta"
     },
     menu: {
       space: 'Lloc',
